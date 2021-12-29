@@ -15,7 +15,7 @@ $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 $fh = fopen('logs.txt', 'a'); 
 fwrite($fh, ''."".$ip ."\n");
 $keys = array(
-"VIBE-12HM-7K",
+"Devill-Young",
 
 "VIBR-841G-JK"
 ); 
