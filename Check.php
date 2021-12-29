@@ -17,7 +17,7 @@ fwrite($fh, ''."".$ip ."\n");
 $keys = array(
 "Devill-Young",
 
-"VIBR-841G-JK"
+"Devill-Young"
 ); 
 $sub = $_GET["key"];
 if (in_array($sub,$keys,TRUE)) {
